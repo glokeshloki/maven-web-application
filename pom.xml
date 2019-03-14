@@ -88,14 +88,14 @@
 	
 	<distributionManagement>
 	    <repository>
-	      <id>nexus</id>
+	      <id>release</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://ec2-13-233-204-10.ap-south-1.compute.amazonaws.com:8081/repository/flipkart-release/</url>
+	      <url>http://ec2-35-154-15-109.ap-south-1.compute.amazonaws.com:8081/repository/maven_release/</url>
 	    </repository>
 	    <snapshotRepository>
-	      <id>nexus</id>
+	      <id>snapshot</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://ec2-13-233-204-10.ap-south-1.compute.amazonaws.com:8081/repository/flipkart-snapshots/</url>
+	      <url> http://ec2-35-154-15-109.ap-south-1.compute.amazonaws.com:8081/repository/maven_snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
